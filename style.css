@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   font-family: 'Permanent Marker', cursive;
+   color: white;
+   text-align: center;
+
+}
+body{
+    background-color: rgb(8, 43, 85);
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    /* background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3) ),  */
+}
+#today, #time{
+    font-size: 8rem;
+}
+
+#date{
+    font-size: 4rem;
+}
